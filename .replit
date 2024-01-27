@@ -1,0 +1,7 @@
+language = "nodejs"
+run = "npm start"
+externalPort = 80
+
+[deployment]
+deploymentTarget = "gce"
+run = ["sh", "-c", "npm start "]
